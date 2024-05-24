@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--       <h2 id="header">Whiteboard</h2>   -->
+    <!--<a href="img.png" download="cham.png">Download button</a>-->
+    <div class="toolbar">
+        <div class="cross">Cross</div>
+        <div class="toolbar-options">
+            <div class="tool" id="pencil">
+                <img src="https://i.pinimg.com/736x/4d/40/4e/4d404e3b92fbe442e393f51ff223044f.jpg" class="tool-img" alt="Pencil">
+            </div>
+            <div class="tool" id="eraser">
+                <img src="https://media.istockphoto.com/id/1421873157/vector/simple-red-blue-eraser-illustration-office-element-stationery-and-art-school-supply-blue-red.jpg?s=612x612&w=0&k=20&c=7ceXQ56q_lVUr1XrkZWNZJnVtoDDl_MMdxw8igauylE=" alt="Eraser" class="tool-img">
+            </div>
+            <div class="tool" id="sticky">
+                <img src="https://img.freepik.com/premium-vector/colorful-sticky-notes-memo-paper_44971-78.jpg" alt="Colorful Sticky Notes" class="tool-img">
+            </div>
+            <div class="tool" id="upload">
+                <img src="https://png.pngtree.com/png-vector/20190508/ourmid/pngtree-upload-cloud-vector-icon-png-image_1027251.jpg" alt="Upload Cloud Icon" class="tool-img">
+            </div>
+            <div class="tool" id="download">
+                <img src="https://clipart-library.com/2023/download-icon-clipart-md.png" alt="Download Icon" class="tool-img">
+            </div>
+            <div class="tool" id="undo">
+                <img src="https://png.pngtree.com/png-vector/20220621/ourmid/pngtree-undo-or-reply-arrows-back-png-image_5247937.png" alt="Undo Arrows Icon" class="tool-img">
+            </div>
+            <div class="tool" id="redo">
+                <img src="https://d29fhpw069ctt2.cloudfront.net/clipart/89030/preview/redo_preview_c76e.png" alt="Redo Icon" class="tool-img">
+            </div>
+            <input type="file" class="input-tag">
+        </div>
+    </div>
+    <!--<div class="sticky" id="st">
+        <div class="nav" id="na">
+            <div class="minimize" id="mi">min</div>
+            <div class="close" id="cl">X</div>
+        </div>
+        <textarea class="text-area" id="te">       
+        </textarea>
+    </div>-->
+    <canvas id ="board"></canvas>
+    <script src="tools.js"></script> 
+</body>
+</html>
